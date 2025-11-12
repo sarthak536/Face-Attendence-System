@@ -60,7 +60,7 @@ class App:
 
         label = test(
                 image=self.most_recent_capture_arr,
-                model_dir='C:/Users/renue/OneDrive/Desktop/project code/Python/Silent-Face-Anti-Spoofing-master/Silent-Face-Anti-Spoofing-master/resources/anti_spoof_models',
+                model_dir='./resources/anti_spoof_models',
                 device_id=0
                 )
 
@@ -83,7 +83,7 @@ class App:
 
         label = test(
                 image=self.most_recent_capture_arr,
-                model_dir='C:/Users/renue/OneDrive/Desktop/project code/Python/Silent-Face-Anti-Spoofing-master/Silent-Face-Anti-Spoofing-master/resources/anti_spoof_models',
+                model_dir='./resources/anti_spoof_models',
                 device_id=0
                 )
 
