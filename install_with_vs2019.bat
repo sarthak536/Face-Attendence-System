@@ -1,0 +1,13 @@
+@echo off
+echo Setting up Visual Studio 2019 environment...
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
+echo.
+echo Installing dlib...
+pip install dlib
+echo.
+echo Installing face_recognition...
+pip install face_recognition
+echo.
+echo Testing installation...
+python -c "import dlib, face_recognition; print('SUCCESS: All packages installed!')"
+pause
